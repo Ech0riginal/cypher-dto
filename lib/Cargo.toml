@@ -17,7 +17,7 @@ serde = ["macros", "cypher-dto-macros/serde"]
 [dependencies]
 chrono = { version = "0.4" }
 cypher-dto-macros = { version = "0.3.1", path = "../macros", optional = true }
-neo4rs = "0.7.1"
+neo4rs = "0.8.0"
 thiserror = "1.0"
 
 [dev-dependencies]
